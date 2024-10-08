@@ -5,6 +5,10 @@ public class Coordinates {
     private double y;
     public Coordinates(double x1, double y1){
         this.x = x1;
-        this. y = y1;
+        this.y = y1;
+    }
+    @Override
+    public String toString(){
+        return x + "," + y;
     }
 }
